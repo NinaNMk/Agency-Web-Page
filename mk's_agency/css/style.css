@@ -1,0 +1,166 @@
+body{
+    font-size: 100%;
+  }
+
+   
+  @font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+   .navP{
+     font-family: 'Myriad Pro';
+     font-size: 1rem;
+     line-height: 2.75rem;
+     color: #000000;
+   }
+   .navP:hover{
+     color:grey;
+   }
+
+   .loginP{
+     font-size: 0.7rem;
+     font-weight: bold;
+     border-radius: 25px;
+     padding-left: 1rem;
+     padding-right: 1rem;
+   }
+
+   .pMain{
+     font-family: 'MyriadPro-Regular';
+     font-size: 1rem;
+     line-height: 1.8rem;
+     color: #8c9398;
+   }
+
+   h5{
+     font-size: 1.1rem;
+    font-family: 'MyriadPro-Regular';   }
+    
+    hr{
+     width:5%;
+    }
+
+    .bgImg{
+      background-image: url(../img/pliktra.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-size:cover;
+    }
+    
+    .pSub{
+      font-size:1rem ;
+      font-family:'Myriad' ;
+      color:#ffff;
+    }
+    input{
+      background-image: inherit;
+    }
+
+  .navFooter{
+    color: #ffff;
+    font-family: 'Myriad Pro';
+    font-size: 1rem;
+    line-height: 2.75rem;
+  }
+
+  .navFooter:hover{
+    color:rgb(88, 88, 88);
+  }
+  .bg{
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+    }
+    
+    .bg1{
+        background-image: url(../img/img2.png);
+        background-repeat: no-repeat;
+
+    }
+    
+    .bg2{
+        background-image: url(../img/img3.png);
+        background-repeat: no-repeat;
+
+    }
+.btn-secondary{
+  background-color: #eb8484;
+  border: #eb8484;
+  
+}
+
+.pSlider{
+  font-size:50px ;
+  font-family:'Myriad Pro' ;
+  text-align: center;
+  padding-top: 20rem;
+  
+}
+    
+      
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+    
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
+    
+    .swiper-slide {
+      font-size: 18px;
+      color: #fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 40px 60px;
+    }
+    
+    .parallax-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 130%;
+      height: 100%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
+    
+   .swiperTop{
+     padding-top: 20rem;
+   }
+
+   @media (max-width: 576px) { 
+     .pSlider{
+    font-size:35px ;
+    
+  } }
